@@ -1,1 +1,73 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+          padding: 0;
+            background-color: #f4f4f4;
+              color: #333;
+                transition: all 0.3s ease;
+                }
+
+                body.dark {
+                  background-color: #121212;
+                    color: #f0f0f0;
+                    }
+
+                    .container {
+                      max-width: 800px;
+                        margin: 0 auto;
+                          padding: 20px;
+                          }
+
+                          header {
+                            text-align: center;
+                              margin-bottom: 30px;
+                              }
+
+                              h1 {
+                                font-size: 3rem;
+                                  color: #00c5b9;
+                                  }
+
+                                  form {
+                                    display: flex;
+                                      flex-direction: column;
+                                        gap: 15px;
+                                          margin-bottom: 20px;
+                                          }
+
+                                          input, textarea, button {
+                                            padding: 10px;
+                                              font-size: 1rem;
+                                                border: 1px solid #ccc;
+                                                  border-radius: 5px;
+                                                  }
+
+                                                  button {
+                                                    background-color: #00c5b9;
+                                                      color: white;
+                                                        border: none;
+                                                          cursor: pointer;
+                                                          }
+
+                                                          button:hover {
+                                                            background-color: #009f94;
+                                                            }
+
+                                                            .preview {
+                                                              background-color: #e0f7f5;
+                                                                padding: 15px;
+                                                                  border-radius: 5px;
+                                                                  }
+
+                                                                  body.dark .preview {
+                                                                    background-color: #1e1e1e;
+                                                                    }
+
+                                                                    .download button {
+                                                                      background-color: #333;
+                                                                      }
+
+                                                                      .download button:hover {
+                                                                        background-color: #555;
+                                                                        }
 
