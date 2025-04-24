@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minty Fashion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Minty</h1>
+      <p>Fresh Looks. Bold Style.</p>
+      <button id="themeToggle">Toggle Theme</button>
+    </header>
 
+    <section class="form-section">
+      <h2>Find Your Style</h2>
+      <form id="styleForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="style">Your Style (e.g., edgy, streetwear, chic):</label>
+        <input type="text" id="style" required>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div class="preview">
+        <h3>Style Preview</h3>
+        <p><strong>Name:</strong> <span id="previewName">-</span></p>
+        <p><strong>Style:</strong> <span id="previewStyle">-</span></p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section class="download">
+      <h2>Download Our Lookbook</h2>
+      <button id="downloadBtn">Download PDF</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
